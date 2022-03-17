@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    font-weight: bold;
+    color: magenta;
+    font-size: 30px;
+    padding-left: 30px;
+    
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+}
+
+.content, .nav_ {
+    flex: 1;
+}
+
+.nav_{
+    text-align: right;
+    display: inline-block;
+}
+
+.item {
+    font-size: 20px;
+    color: magenta;
+    padding: 13px;
+}
