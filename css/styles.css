@@ -35,7 +35,7 @@
 .main {
     background-image: url(../images/pizz.png);
     background-size: cover;
-    height: 600px;
+    height: 500px;
     text-align: center;
     color: white;
     padding-top: 200px;
@@ -46,4 +46,13 @@
     font-size: 25px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn button {
+    color: white;
+    background-color: magenta;
+    size: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
