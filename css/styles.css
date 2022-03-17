@@ -14,6 +14,7 @@
 .nav {
     align-items: center;
     display: flex;
+    background-color: black;
 }
 
 .content, .nav_ {
@@ -29,4 +30,20 @@
     font-size: 20px;
     color: magenta;
     padding: 13px;
+}
+
+.main {
+    background-image: url(../images/pizz.png);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-weight: bolder;
+}
+
+.main p {
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
