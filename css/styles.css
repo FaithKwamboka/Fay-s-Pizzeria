@@ -179,4 +179,26 @@ footer {
     background-color: maroon;
     color: white;
     font-size: 15px;
-  }
+}
+
+.orders {
+    background-color: rgb(243, 239, 239);
+    color: black;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.btn.Checkout {
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+h4 h5 h6 {
+    text-align: center;
+}
+
+
+
+
+
