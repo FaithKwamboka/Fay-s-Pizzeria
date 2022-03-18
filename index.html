@@ -81,7 +81,39 @@
     </div>
 
     <!-- Order Section -->
-    <div class="order" id="order"></div>
+    <div class="orders" id="order"> <br>
+        <h1 class="text-center" id="order-pizza">Order Pizza</h1> <br>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label>Choose your Preferred Pizza:</label>
+                    <select class="custom-select custom-select-md mb-3 size" required>
+                        <option label="Small" value="600"></option>
+                        <option label="Medium" value="800"></option>
+                        <option label="Large" value="1200"></option>
+                    </select>
+                <label>Choose your Preferred Toppings:</label>
+                <select class="custom-select custom-select-md mb-3 Toppings" required>
+                        <option label="Bacon" value="200"></option>
+                        <option label="Mushrooms" value="300"></option>
+                        <option label="Chicken" value="200"></option>
+                    </select>
+                <label>Choose your Preferred Crust:</label>
+                    <select class="custom-select custom-select-md mb-3 crust" required>
+                        <option label="Crispy" value="300"></option>
+                        <option label="Gluten-free" value="100"></option>
+                        <option label="Stuffed" value="200"></option>
+                    </select>
+                </form>
+                <br>
+                <div class="text-center">
+                    <button class="btn btn-info order" type="submit">Order</button>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
 
 
     <!-- Contact Us Section -->
