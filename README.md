@@ -1,4 +1,3 @@
-# Pizzeria-La-Finesse
 # PIzzeria La Finesse
 PIzzeria La Finesse is a website that allows customers to order their favorite pizza from the comfort of their homes and have it delivered.
 
