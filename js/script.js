@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(".btn.yes").hide();
     $(".btn.no").hide();
     $(".add-info h5").hide();
-    $(".add-info p").hide();
+    $(".add-info h3").hide();
 
     $('.btn.order').click(function() {
         var pizzaSize  = $(".size option:selected").val();
@@ -70,7 +70,7 @@ $(document).ready(function(){
           });
       
           $(".btn.no").click(function() {
-            $(".add-info p").show();
+            $(".add-info h3").show();
             $(".add-info h6").hide();
             $(".btn.yes").hide();
             $(".btn.no").hide();
