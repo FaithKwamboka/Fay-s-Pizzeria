@@ -38,7 +38,7 @@
 .main {
     background-image: url(../images/pizz.png);
     background-size: cover;
-    height: 600px;
+    height: 650px;
     text-align: center;
     color: white;
     padding-top: 200px;
@@ -64,7 +64,7 @@ button {
 .welcome {
     /* background-image: url(../images/background\ -3.png); */
     background-color: maroon;
-    height: 600px;
+    height: 650px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
@@ -124,12 +124,16 @@ button {
     background-color: maroon;
 }
 
+.orders{
+    height: 480px;
+    padding-top: 100px;
+}
 #form-section {
     background-image: url(../images/background-2.png);
     max-width: 100vw;
     color: white;
     padding: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 450px;
     background-size: cover;
 }
