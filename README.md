@@ -20,7 +20,7 @@ Faith Kwamboka Okong'o
 
 1. Open your terminal (CTRL ALT T)
 2. INitialize Git
-3. Clone the project from github clone 
+3. Clone the project from github clone https://github.com/FaithKwamboka/Pizzeria-La-Finesse.git
 4. cd pizzeria-la-finesse
 5. Open the folder in your text editor prefferably VS-code (code .) or Atom.
 6. Open the file named index.html on your preferred browser.
