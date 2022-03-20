@@ -208,5 +208,28 @@ table {
     display: inline-flexbox;
 }
 
+@media only screen and (min-width: 600px) {
+    .container-fluid {
+      width: 95%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container-fluid {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .container-fluid {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container-fluid {
+      width: 100%;
+    }
+}
 
 
